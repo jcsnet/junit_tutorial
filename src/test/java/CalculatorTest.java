@@ -56,4 +56,19 @@ public class CalculatorTest {
 //        Then
         assertTrue(result);
     }
+
+    @Test(expected = java.lang.ArithmeticException.class)
+    public void testDivisionByZero() throws ArithmeticException
+    {
+//        Given
+//      Calculator object is created before
+//      each test in beforeTest method
+
+//        When
+        calculator.divide(3, 0);
+
+//        Then
+//      Method should throw ArithmeticalException
+
+    }
 }
