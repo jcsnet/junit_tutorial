@@ -14,4 +14,17 @@ public class CalculatorTest {
         calculator = new Calculator();
     }
 
+    @Test
+    public void testAdd()
+    {
+//        Given
+//      Calculator object is created before
+//      each test in beforeTest method
+
+//        When
+        int result = calculator.add(3,4);
+
+//        Then
+        assertEquals(7, result);
+    }
 }
