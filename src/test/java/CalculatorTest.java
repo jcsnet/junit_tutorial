@@ -41,4 +41,19 @@ public class CalculatorTest {
 //        Then
         assertFalse(result);
     }
+
+    @Test
+    public void testIsCalcOn()
+    {
+//        Given
+//      Calculator object is created before
+//      each test in beforeTest method
+
+//        When
+        calculator.setTurnOn(true);
+        boolean result = calculator.isTurnOn();
+
+//        Then
+        assertTrue(result);
+    }
 }
