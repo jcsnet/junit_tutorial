@@ -27,4 +27,18 @@ public class CalculatorTest {
 //        Then
         assertEquals(7, result);
     }
+
+    @Test
+    public void testCompare()
+    {
+//        Given
+//      Calculator object is created before
+//      each test in beforeTest method
+
+//        When
+        boolean result = calculator.compare(5, 7);
+
+//        Then
+        assertFalse(result);
+    }
 }
