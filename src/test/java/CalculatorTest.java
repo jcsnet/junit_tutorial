@@ -71,4 +71,10 @@ public class CalculatorTest {
 //      Method should throw ArithmeticalException
 
     }
+
+    @Ignore
+    public void testIgnore()
+    {
+//        This test method will be ignored
+    }
 }
